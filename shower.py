@@ -10,7 +10,7 @@ class Ui_MainWindow(object):
         self.map = QtWidgets.QLabel(self.centralwidget)
         self.map.setGeometry(QtCore.QRect(10, 100, 781, 431))
         self.map.setText("")
-        self.map.setScaledContents(True)
+        self.map.setScaledContents(False)
         self.map.setObjectName("map")
         self.enter = QtWidgets.QLineEdit(self.centralwidget)
         self.enter.setGeometry(QtCore.QRect(10, 10, 641, 31))
